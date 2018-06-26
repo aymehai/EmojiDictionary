@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E185CE4520E2ACEA00D35EF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E185CE4420E2ACEA00D35EF1 /* AppDelegate.swift */; };
-		E185CE4720E2ACEA00D35EF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E185CE4620E2ACEA00D35EF1 /* ViewController.swift */; };
-		E185CE4A20E2ACEA00D35EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E185CE4820E2ACEA00D35EF1 /* Main.storyboard */; };
 		E185CE4C20E2ACEB00D35EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E185CE4B20E2ACEB00D35EF1 /* Assets.xcassets */; };
 		E185CE4F20E2ACEB00D35EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E185CE4D20E2ACEB00D35EF1 /* LaunchScreen.storyboard */; };
 		E185CE5A20E2ACEB00D35EF1 /* EmojiDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E185CE5920E2ACEB00D35EF1 /* EmojiDictionaryTests.swift */; };
 		E185CE6520E2ACEB00D35EF1 /* EmojiDictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E185CE6420E2ACEB00D35EF1 /* EmojiDictionaryUITests.swift */; };
+		E185CE7320E2ADB500D35EF1 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = E185CE7220E2ADB500D35EF1 /* Emoji.swift */; };
+		E185CE7520E2AEB400D35EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E185CE7420E2AEB400D35EF1 /* Main.storyboard */; };
+		E185CE7720E2B16B00D35EF1 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E185CE7620E2B16B00D35EF1 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,6 @@
 /* Begin PBXFileReference section */
 		E185CE4120E2ACEA00D35EF1 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E185CE4420E2ACEA00D35EF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E185CE4620E2ACEA00D35EF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E185CE4920E2ACEA00D35EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E185CE4B20E2ACEB00D35EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E185CE4E20E2ACEB00D35EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E185CE5020E2ACEB00D35EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,9 @@
 		E185CE6020E2ACEB00D35EF1 /* EmojiDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E185CE6420E2ACEB00D35EF1 /* EmojiDictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDictionaryUITests.swift; sourceTree = "<group>"; };
 		E185CE6620E2ACEB00D35EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E185CE7220E2ADB500D35EF1 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		E185CE7420E2AEB400D35EF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E185CE7620E2B16B00D35EF1 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				E185CE4420E2ACEA00D35EF1 /* AppDelegate.swift */,
-				E185CE4620E2ACEA00D35EF1 /* ViewController.swift */,
-				E185CE4820E2ACEA00D35EF1 /* Main.storyboard */,
+				E185CE7220E2ADB500D35EF1 /* Emoji.swift */,
+				E185CE7420E2AEB400D35EF1 /* Main.storyboard */,
+				E185CE7620E2B16B00D35EF1 /* EmojiTableViewController.swift */,
 				E185CE4B20E2ACEB00D35EF1 /* Assets.xcassets */,
 				E185CE4D20E2ACEB00D35EF1 /* LaunchScreen.storyboard */,
 				E185CE5020E2ACEB00D35EF1 /* Info.plist */,
@@ -229,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E185CE7520E2AEB400D35EF1 /* Main.storyboard in Resources */,
 				E185CE4F20E2ACEB00D35EF1 /* LaunchScreen.storyboard in Resources */,
 				E185CE4C20E2ACEB00D35EF1 /* Assets.xcassets in Resources */,
-				E185CE4A20E2ACEA00D35EF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E185CE4720E2ACEA00D35EF1 /* ViewController.swift in Sources */,
+				E185CE7320E2ADB500D35EF1 /* Emoji.swift in Sources */,
+				E185CE7720E2B16B00D35EF1 /* EmojiTableViewController.swift in Sources */,
 				E185CE4520E2ACEA00D35EF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E185CE4820E2ACEA00D35EF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E185CE4920E2ACEA00D35EF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E185CE4D20E2ACEB00D35EF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
