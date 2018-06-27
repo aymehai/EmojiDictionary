@@ -61,6 +61,11 @@
                                         <constraint firstAttribute="bottom" secondItem="S9f-Pc-WUg" secondAttribute="bottom" id="mdo-6v-7hG"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="UJi-xp-DR4" id="CCM-9r-QTI"/>
+                                    <outlet property="nameLabel" destination="W6q-iL-2E9" id="3c8-AZ-ZUL"/>
+                                    <outlet property="symbolLabel" destination="a0x-vw-Dba" id="AMj-L9-uZ1"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
